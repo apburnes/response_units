@@ -1,3 +1,7 @@
+"""
+This is used to export and save the response unit plots into the img/ directory as .png
+"""
+
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
@@ -7,7 +11,7 @@ import os
 
 def savePlot(plotted, graph):
     
-    directory = "img/"
+    directory = "../img/"
     graphic = os.path.join(directory, graph)
     
     fig = plt.figure()
