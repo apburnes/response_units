@@ -12,7 +12,9 @@ import plot_export as pe
 
 sample_points = pd.read_csv("../data/point_data.csv")
 
-myplot = np.arange(25)
-mygraph = "test_graph"
 
-pe.savePlot(myplot, mygraph)
+### Testing plot_export
+###myplot = np.arange(25)
+###mygraph = "test_graph"
+### avoid outputs while testing script
+### pe.savePlot(myplot, mygraph)
