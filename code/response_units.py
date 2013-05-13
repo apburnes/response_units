@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import os
 import plot_export as pe
 
-sample_points = pd.read_csv("../data/point_data.csv")
+sample_points = pd.read_csv("../data/data_points.csv")
 
 
 ### Testing plot_export
