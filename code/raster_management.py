@@ -11,6 +11,7 @@ from osgeo import gdal, ogr
 import os
 
 def myTest(x):
+    """Testing the methods of the project"""
     y = np.arange(x)
     return y
     
